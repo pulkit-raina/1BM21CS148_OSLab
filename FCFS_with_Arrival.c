@@ -15,10 +15,11 @@ void main(){
     printf("Enter the number of processes: ");
     scanf("%d", &n);
 
-    for(i=0; i<n; i++){
-        printf("Enter arrival time of process %d: ", i+1);
+    printf("Enter arrival time of processes: ");
+    for(i=0; i<n; i++)
         scanf("%d", &p[i].arr);
-        printf("Enter burst time of process %d: ", i+1);
+    printf("Enter burst time of processes: ");
+    for(i=0; i<n; i++){
         scanf("%d", &p[i].bt);
         p[i].proc = i+1;
     }
