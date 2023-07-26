@@ -1,11 +1,6 @@
 #include<stdio.h>
 #include<stdlib.h>
 
-typedef struct queue{
-    int q[100];
-    int f, r;
-}queue;
-
 typedef struct process{
     int proc, bt, wt, tat;
 }proc;
